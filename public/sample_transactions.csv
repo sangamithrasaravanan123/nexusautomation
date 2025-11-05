@@ -1,0 +1,501 @@
+transaction_id,transaction_date,raw_description,amount,raw_vendor,true_category,currency
+TXN-000000,2024-08-31,CloudFront CDN bandwidth - 10TB transfer - for Marketing dept,1164.02,AMZN WEB SVCS,cloud,USD
+TXN-000001,2024-08-18,Cloud migration strategy and roadmap - [COMPLIANCE-2024],99854.71,McKinsey & Co,consulting,USD
+TXN-000002,2025-06-26,Standing desks - adjustable height x15,175.04,Amazon Business,office,USD
+TXN-000003,2024-09-30,United domestic flights - consultant travel - [COST-OPTIMIZE],5760.2,American Airlines,travel,USD
+TXN-000004,2025-02-07,Adobe Creative Cloud for Teams - 50 seats - BILL-37460,4399.18,Microsoft Corp,software,USD
+TXN-000005,2025-03-27,Uber for Business - monthly corporate account,2404.08,Enterprise Rent-A-Car,travel,USD
+TXN-000006,2025-04-26,RDS MySQL database - db.r5.xlarge,1268.34,MSFT AZURE,cloud,USD
+TXN-000007,2025-04-08,Lenovo ThinkPad laptops - new employee setup - for Operations dept,448.11,Costco Wholesale,office,USD
+TXN-000008,2025-05-26,Zoom Business Pro - 500 participants - #99192,498.93,Adobe Inc,software,USD
+TXN-000009,2025-06-15,Uber for Business - monthly corporate account,3057.41,United Airlines,travel,USD
+TXN-000010,2025-03-31,Slack Pro workspace - unlimited history - [WORKSTREAM-GAMMA],5064.91,Microsoft Corp,software,USD
+TXN-000011,2025-08-12,Cloud migration strategy and roadmap,172328.31,Accenture LLP,consulting,USD
+TXN-000012,2025-07-08,DocuSign Business Pro - 1000 envelopes/month - summer initiative,123.17,Adobe Inc,software,USD
+TXN-000013,2024-08-24,Adobe Creative Cloud for Teams - 50 seats - [DIGITAL-TRANSFORM],9235.96,Slack Technologies,software,USD
+TXN-000014,2025-04-22,Digital transformation strategy - Phase 1,144240.19,McKinsey & Co,consulting,USD
+TXN-000015,2024-12-08,DocuSign Business Pro - 1000 envelopes/month - annual renewal,14708.29,Microsoft Corp,software,USD
+TXN-000016,2025-06-23,Ergonomic office chairs - Herman Miller Aeron x12 - mid-year refresh,11080.37,Costco Wholesale,office,USD
+TXN-000017,2025-07-05,Business process reengineering - finance dept,9486.14,PwC Advisory,consulting,USD
+TXN-000018,2025-05-20,Business process reengineering - finance dept,9064.14,McKinsey & Co,consulting,USD
+TXN-000019,2025-05-25,Adobe Creative Cloud for Teams - 50 seats - REF:17665,20667.23,JetBrains s.r.o.,software,USD
+TXN-000020,2025-07-14,RDS MySQL database - db.r5.xlarge - summer initiative,959.43,AMZN WEB SVCS,cloud,USD
+TXN-000021,2024-09-29,Ergonomic office chairs - Herman Miller Aeron x12,473.72,Staples Inc,office,USD
+TXN-000022,2025-03-30,Delta business class - executive team offsite,760.82,United Airlines,travel,USD
+TXN-000023,2024-11-10,Azure Storage Account - blob storage 500GB,795.77,AMZN WEB SVCS,cloud,USD
+TXN-000024,2024-10-03,Data governance framework implementation - [AI-PILOT],41291.07,Accenture LLP,consulting,USD
+TXN-000025,2025-02-18,Adobe Creative Cloud for Teams - 50 seats,3840.88,Microsoft Corp,software,USD
+TXN-000026,2025-01-08,United domestic flights - consultant travel - Q4 budget spend,3253.99,Marriott Hotels,travel,USD
+TXN-000027,2025-07-05,Agile transformation coaching - 3 teams - mid-year refresh,9418.36,KPMG Services,consulting,USD
+TXN-000028,2025-02-10,Dell OptiPlex 7090 desktops - IT department,68.82,Office Depot,office,USD
+TXN-000029,2024-01-28,Adobe Creative Cloud for Teams - 50 seats,24476.74,DocuSign Inc,software,USD
+TXN-000030,2025-06-18,Standing desks - adjustable height x15,6201.67,CDW Corporation,office,USD
+TXN-000031,2024-12-09,DocuSign Business Pro - 1000 envelopes/month - for R&D dept,9458.47,Atlassian Corp,software,USD
+TXN-000032,2024-12-12,Zoom Business Pro - 500 participants,4866.8,Microsoft Corp,software,USD
+TXN-000033,2025-08-12,RDS MySQL database - db.r5.xlarge,2735.51,IBM CLOUD,cloud,USD
+TXN-000034,2025-03-05,Agile transformation coaching - 3 teams - [INITIATIVE-BETA],190096.36,Accenture LLP,consulting,USD
+TXN-000035,2024-08-31,Zoom Business Pro - 500 participants - [WORKSTREAM-GAMMA],8836.8,JetBrains s.r.o.,software,USD
+TXN-000036,2024-12-29,Zoom Business Pro - 500 participants - Q4 budget spend,4035.91,Atlassian Corp,software,USD
+TXN-000037,2025-05-29,AWS EC2 t3.large instances - us-east-1 - REF:72277,1437.6,DigitalOcean LLC,cloud,USD
+TXN-000038,2024-09-11,Uber for Business - monthly corporate account,631.01,Delta Air Lines,travel,USD
+TXN-000039,2025-06-05,United domestic flights - consultant travel - summer initiative,1348.24,Marriott Hotels,travel,USD
+TXN-000040,2024-12-27,Dell OptiPlex 7090 desktops - IT department,8120.89,Best Buy Business,office,USD
+TXN-000041,2024-12-08,Atlassian JIRA Software - 100 users - annual renewal,2680.69,DocuSign Inc,software,USD
+TXN-000042,2025-04-29,Data governance framework implementation,9148.68,Deloitte Consulting,consulting,USD
+TXN-000043,2024-11-10,Lenovo ThinkPad laptops - new employee setup,1379.4,Costco Wholesale,office,USD
+TXN-000044,2024-09-04,Agile transformation coaching - 3 teams,41150.16,BCG Inc,consulting,USD
+TXN-000045,2025-07-01,Uber for Business - monthly corporate account - summer initiative,216.18,Hilton Hotels,travel,USD
+TXN-000046,2025-03-23,Network switches - Cisco Catalyst 48-port,1317.11,Amazon Business,office,USD
+TXN-000047,2025-04-20,CloudFront CDN bandwidth - 10TB transfer,5006.22,IBM CLOUD,cloud,USD
+TXN-000048,2024-09-04,Digital transformation strategy - Phase 1 - [Q4-MIGRATION],52280.14,McKinsey & Co,consulting,USD
+TXN-000049,2025-02-01,Business process reengineering - finance dept - for Legal dept,113994.66,Accenture LLP,consulting,USD
+TXN-000050,2024-11-13,Delta business class - executive team offsite - for R&D dept,2964.46,Uber Technologies,travel,USD
+TXN-000051,2024-08-15,Dell OptiPlex 7090 desktops - IT department,1405.47,Staples Inc,office,USD
+TXN-000052,2024-10-13,Atlassian JIRA Software - 100 users - for Marketing dept,2921.78,Slack Technologies,software,USD
+TXN-000053,2025-05-11,Delta business class - executive team offsite,1540.07,Hilton Hotels,travel,USD
+TXN-000054,2024-11-01,DocuSign Business Pro - 1000 envelopes/month - [Q4-MIGRATION],6712.26,Slack Technologies,software,USD
+TXN-000055,2025-02-05,Lambda function executions - 2M invocations,13205.5,GOOG CLOUD,cloud,USD
+TXN-000056,2025-03-04,Office 365 E5 licenses - 250 users,381.14,Atlassian Corp,software,USD
+TXN-000057,2024-10-11,Cybersecurity risk assessment and remediation - [INITIATIVE-BETA],165573.13,McKinsey & Co,consulting,USD
+TXN-000058,2025-06-09,Uber for Business - monthly corporate account - mid-year refresh,5766.79,Delta Air Lines,travel,USD
+TXN-000059,2024-12-04,AWS EC2 t3.large instances - us-east-1 - Q4 budget spend,4605.24,GOOG CLOUD,cloud,USD
+TXN-000060,2024-09-30,Adobe Creative Cloud for Teams - 50 seats,20288.87,Microsoft Corp,software,USD
+TXN-000061,2025-03-30,Zoom Business Pro - 500 participants - INVOICE-41439,348.41,Slack Technologies,software,USD
+TXN-000062,2025-03-21,Lenovo ThinkPad laptops - new employee setup - [EXPANSION-EU],5777.71,CDW Corporation,office,USD
+TXN-000063,2025-07-07,Ergonomic office chairs - Herman Miller Aeron x12 - H1 completion,295.05,Staples Inc,office,USD
+TXN-000064,2024-11-29,"Conference room whiteboards - interactive 75""",1260.23,Staples Inc,office,USD
+TXN-000065,2025-08-02,DocuSign Business Pro - 1000 envelopes/month - [DIGITAL-TRANSFORM],24238.22,Slack Technologies,software,USD
+TXN-000066,2025-01-15,Atlassian JIRA Software - 100 users - Q4 budget spend,498.78,Adobe Inc,software,USD
+TXN-000067,2025-01-18,Network switches - Cisco Catalyst 48-port - Q4 budget spend,66.51,Best Buy Business,office,USD
+TXN-000068,2024-09-26,Standing desks - adjustable height x15 - for Operations dept,1796.1,Costco Wholesale,office,USD
+TXN-000069,2024-08-14,Dell OptiPlex 7090 desktops - IT department - REF:11792,268.12,CDW Corporation,office,USD
+TXN-000070,2024-11-25,Lenovo ThinkPad laptops - new employee setup - #73242,884.93,Staples Inc,office,USD
+TXN-000071,2025-02-19,United domestic flights - consultant travel,1100.32,Hilton Hotels,travel,USD
+TXN-000072,2024-12-27,Slack Pro workspace - unlimited history,3141.22,Zoom Video,software,USD
+TXN-000073,2024-10-24,Standing desks - adjustable height x15 - INV-63841,469.78,Costco Wholesale,office,USD
+TXN-000074,2025-06-09,"Conference room whiteboards - interactive 75"" - summer initiative",406.58,CDW Corporation,office,USD
+TXN-000075,2025-05-25,AWS EC2 t3.large instances - us-east-1 - [EXPANSION-EU],10450.64,Oracle Corp,cloud,USD
+TXN-000076,2024-12-06,DocuSign Business Pro - 1000 envelopes/month,24082.79,DocuSign Inc,software,USD
+TXN-000077,2025-06-22,Business process reengineering - finance dept - [WORKSTREAM-GAMMA],170046.21,KPMG Services,consulting,USD
+TXN-000078,2025-05-12,Adobe Creative Cloud for Teams - 50 seats - [WORKSTREAM-GAMMA],15623.33,Atlassian Corp,software,USD
+TXN-000079,2025-03-18,Agile transformation coaching - 3 teams - BILL-67898,42574.23,BCG Inc,consulting,USD
+TXN-000080,2024-12-19,Atlassian JIRA Software - 100 users - Q4 budget spend,1396.48,JetBrains s.r.o.,software,USD
+TXN-000081,2024-10-06,Lenovo ThinkPad laptops - new employee setup,53.64,Amazon Business,office,USD
+TXN-000082,2024-12-22,DocuSign Business Pro - 1000 envelopes/month - annual renewal,12046.42,DocuSign Inc,software,USD
+TXN-000083,2025-02-26,Lenovo ThinkPad laptops - new employee setup - for Legal dept,2330.9,Staples Inc,office,USD
+TXN-000084,2025-03-14,Uber for Business - monthly corporate account,2627.04,Hilton Hotels,travel,USD
+TXN-000085,2024-09-01,Standing desks - adjustable height x15 - for IT dept,13321.69,Staples Inc,office,USD
+TXN-000086,2024-01-20,Slack Pro workspace - unlimited history - Q4 budget spend,12429.47,Slack Technologies,software,USD
+TXN-000087,2025-06-14,Office 365 E5 licenses - 250 users - INVOICE-80457,1129.0,Zoom Video,software,USD
+TXN-000088,2024-10-01,Delta business class - executive team offsite - for R&D dept,2747.91,Enterprise Rent-A-Car,travel,USD
+TXN-000089,2024-09-16,HP LaserJet Pro printers - floor 3 & 4,11228.16,Office Depot,office,USD
+TXN-000090,2025-02-23,Azure Storage Account - blob storage 500GB,475.74,Salesforce.com,cloud,USD
+TXN-000091,2025-02-25,Data governance framework implementation - [WORKSTREAM-GAMMA],13298.18,Deloitte Consulting,consulting,USD
+TXN-000092,2025-06-06,Digital transformation strategy - Phase 1 - summer initiative,7506.54,PwC Advisory,consulting,USD
+TXN-000093,2024-12-26,Kubernetes cluster - 5 worker nodes - year-end procurement,4919.56,MSFT AZURE,cloud,USD
+TXN-000094,2025-01-19,Delta business class - executive team offsite,2920.86,United Airlines,travel,USD
+TXN-000095,2024-09-22,RDS MySQL database - db.r5.xlarge - [AI-PILOT],10145.26,AMZN WEB SVCS,cloud,USD
+TXN-000096,2024-09-13,Network switches - Cisco Catalyst 48-port,11421.35,Best Buy Business,office,USD
+TXN-000097,2025-01-06,HP LaserJet Pro printers - floor 3 & 4 - annual renewal,1496.83,Amazon Business,office,USD
+TXN-000098,2025-02-03,Kubernetes cluster - 5 worker nodes - [WORKSTREAM-GAMMA],9641.6,AMZN WEB SVCS,cloud,USD
+TXN-000099,2025-07-17,Google Cloud Run - container deployment - [DIGITAL-TRANSFORM],20754.83,IBM CLOUD,cloud,USD
+TXN-000100,2024-10-29,DocuSign Business Pro - 1000 envelopes/month,322.51,DocuSign Inc,software,USD
+TXN-000101,2025-05-12,Enterprise car rental - client site visits Chicago,565.4,American Airlines,travel,USD
+TXN-000102,2024-01-03,Zoom Business Pro - 500 participants - year-end procurement,4414.38,Atlassian Corp,software,USD
+TXN-000103,2025-05-25,Adobe Creative Cloud for Teams - 50 seats - for IT dept,388.64,Atlassian Corp,software,USD
+TXN-000104,2025-02-17,Standing desks - adjustable height x15 - REF:98895,248.92,Best Buy Business,office,USD
+TXN-000105,2025-06-03,Data governance framework implementation - mid-year refresh,14844.46,BCG Inc,consulting,USD
+TXN-000106,2025-07-07,Standing desks - adjustable height x15 - mid-year refresh,1750.66,Best Buy Business,office,USD
+TXN-000107,2024-01-11,Adobe Creative Cloud for Teams - 50 seats,2319.9,Slack Technologies,software,USD
+TXN-000108,2025-01-22,DocuSign Business Pro - 1000 envelopes/month - year-end procurement,976.38,Microsoft Corp,software,USD
+TXN-000109,2025-05-29,Marriott downtown Seattle - tech conference 3 nights,4755.5,Hilton Hotels,travel,USD
+TXN-000110,2024-10-20,Lambda function executions - 2M invocations - [COST-OPTIMIZE],15887.2,MSFT AZURE,cloud,USD
+TXN-000111,2024-11-26,Ergonomic office chairs - Herman Miller Aeron x12 - INV-69233,2490.82,Costco Wholesale,office,USD
+TXN-000112,2025-07-22,Delta business class - executive team offsite - summer initiative,5771.58,Hilton Hotels,travel,USD
+TXN-000113,2024-11-17,RDS MySQL database - db.r5.xlarge,1754.42,Oracle Corp,cloud,USD
+TXN-000114,2025-07-10,Atlassian JIRA Software - 100 users - mid-year refresh,16957.72,JetBrains s.r.o.,software,USD
+TXN-000115,2025-01-24,Adobe Creative Cloud for Teams - 50 seats - BILL-59372,11996.42,Microsoft Corp,software,USD
+TXN-000116,2025-05-12,Azure Storage Account - blob storage 500GB - for HR dept,4805.18,Salesforce.com,cloud,USD
+TXN-000117,2024-09-08,Google Cloud Run - container deployment,1202.14,Oracle Corp,cloud,USD
+TXN-000118,2025-05-20,Uber for Business - monthly corporate account - INVOICE-57749,6464.23,Marriott Hotels,travel,USD
+TXN-000119,2025-02-05,Agile transformation coaching - 3 teams - for Marketing dept,7391.68,PwC Advisory,consulting,USD
+TXN-000120,2024-09-18,Business process reengineering - finance dept - [COST-OPTIMIZE],6996.98,EY Consulting,consulting,USD
+TXN-000121,2025-06-27,Adobe Creative Cloud for Teams - 50 seats,405.25,Microsoft Corp,software,USD
+TXN-000122,2025-02-02,Dell OptiPlex 7090 desktops - IT department - BILL-22987,228.4,Staples Inc,office,USD
+TXN-000123,2025-08-10,Ergonomic office chairs - Herman Miller Aeron x12 - REF:29597,8629.32,CDW Corporation,office,USD
+TXN-000124,2024-09-19,Kubernetes cluster - 5 worker nodes,3457.48,DigitalOcean LLC,cloud,USD
+TXN-000125,2025-03-16,Delta business class - executive team offsite - INVOICE-56244,209.86,Hilton Hotels,travel,USD
+TXN-000126,2024-11-02,Round-trip flights SFO-NYC - Q4 board meeting,5536.64,United Airlines,travel,USD
+TXN-000127,2025-06-20,DocuSign Business Pro - 1000 envelopes/month - H1 completion,11896.05,Zoom Video,software,USD
+TXN-000128,2025-07-25,HP LaserJet Pro printers - floor 3 & 4 - INV-36144,837.13,CDW Corporation,office,USD
+TXN-000129,2025-07-19,United domestic flights - consultant travel - for Legal dept,2457.24,Marriott Hotels,travel,USD
+TXN-000130,2024-11-20,HP LaserJet Pro printers - floor 3 & 4,967.04,Costco Wholesale,office,USD
+TXN-000131,2025-06-21,AWS EC2 t3.large instances - us-east-1 - H1 completion,6845.22,IBM CLOUD,cloud,USD
+TXN-000132,2024-10-02,Business process reengineering - finance dept - [DIGITAL-TRANSFORM],41827.78,KPMG Services,consulting,USD
+TXN-000133,2024-08-30,DocuSign Business Pro - 1000 envelopes/month,420.44,Slack Technologies,software,USD
+TXN-000134,2025-02-04,Atlassian JIRA Software - 100 users - [EXPANSION-EU],17101.9,Atlassian Corp,software,USD
+TXN-000135,2025-01-26,Slack Pro workspace - unlimited history - #44116,211.48,Zoom Video,software,USD
+TXN-000136,2024-12-28,Digital transformation strategy - Phase 1 - annual renewal,96582.05,Deloitte Consulting,consulting,USD
+TXN-000137,2024-11-25,Adobe Creative Cloud for Teams - 50 seats - for Marketing dept,163.0,DocuSign Inc,software,USD
+TXN-000138,2024-12-10,"Conference room whiteboards - interactive 75"" - year-end procurement",2710.62,Best Buy Business,office,USD
+TXN-000139,2024-11-03,Zoom Business Pro - 500 participants,129.67,Zoom Video,software,USD
+TXN-000140,2025-05-26,Cybersecurity risk assessment and remediation - BILL-39552,178923.85,BCG Inc,consulting,USD
+TXN-000141,2025-03-10,RDS MySQL database - db.r5.xlarge - [AI-PILOT],12665.67,GOOG CLOUD,cloud,USD
+TXN-000142,2025-07-29,Round-trip flights SFO-NYC - Q4 board meeting,741.2,Enterprise Rent-A-Car,travel,USD
+TXN-000143,2024-09-18,HP LaserJet Pro printers - floor 3 & 4,1745.1,Best Buy Business,office,USD
+TXN-000144,2024-12-08,Standing desks - adjustable height x15,2221.53,Amazon Business,office,USD
+TXN-000145,2024-01-09,IntelliJ IDEA Ultimate - developer licenses,2167.43,JetBrains s.r.o.,software,USD
+TXN-000146,2025-03-05,Dell OptiPlex 7090 desktops - IT department - [WORKSTREAM-GAMMA],12761.73,Office Depot,office,USD
+TXN-000147,2025-04-24,"Conference room whiteboards - interactive 75""",90.52,Staples Inc,office,USD
+TXN-000148,2025-02-06,Network switches - Cisco Catalyst 48-port - for IT dept,2617.93,Amazon Business,office,USD
+TXN-000149,2024-01-05,Office 365 E5 licenses - 250 users,14007.09,Slack Technologies,software,USD
+TXN-000150,2024-08-12,Cybersecurity risk assessment and remediation - for Operations dept,10091.23,PwC Advisory,consulting,USD
+TXN-000151,2024-11-26,Data governance framework implementation - [AI-PILOT],59359.16,BCG Inc,consulting,USD
+TXN-000152,2024-09-24,Office 365 E5 licenses - 250 users,16674.04,Atlassian Corp,software,USD
+TXN-000153,2025-05-29,United domestic flights - consultant travel - for R&D dept,2183.86,Marriott Hotels,travel,USD
+TXN-000154,2024-10-03,Standing desks - adjustable height x15 - [PROJECT-ALPHA],5446.7,Amazon Business,office,USD
+TXN-000155,2024-11-06,Enterprise car rental - client site visits Chicago,1181.0,Marriott Hotels,travel,USD
+TXN-000156,2024-12-25,Atlassian JIRA Software - 100 users - annual renewal,4808.02,Slack Technologies,software,USD
+TXN-000157,2024-11-07,IntelliJ IDEA Ultimate - developer licenses,473.48,Slack Technologies,software,USD
+TXN-000158,2024-12-21,Atlassian JIRA Software - 100 users - year-end procurement,10752.61,DocuSign Inc,software,USD
+TXN-000159,2025-04-19,CloudFront CDN bandwidth - 10TB transfer - [Q4-MIGRATION],8863.01,Oracle Corp,cloud,USD
+TXN-000160,2024-12-11,CloudFront CDN bandwidth - 10TB transfer,2526.62,Oracle Corp,cloud,USD
+TXN-000161,2025-05-15,Lambda function executions - 2M invocations,946.37,Salesforce.com,cloud,USD
+TXN-000162,2025-07-24,Ergonomic office chairs - Herman Miller Aeron x12 - INV-89007,2372.51,Costco Wholesale,office,USD
+TXN-000163,2025-03-26,Marriott downtown Seattle - tech conference 3 nights,2864.83,Hilton Hotels,travel,USD
+TXN-000164,2024-10-26,Lenovo ThinkPad laptops - new employee setup - for Legal dept,965.5,CDW Corporation,office,USD
+TXN-000165,2024-12-11,HP LaserJet Pro printers - floor 3 & 4 - Q4 budget spend,197.57,Best Buy Business,office,USD
+TXN-000166,2025-07-12,Zoom Business Pro - 500 participants - H1 completion,3077.95,Atlassian Corp,software,USD
+TXN-000167,2025-06-05,Lambda function executions - 2M invocations - BILL-89395,1390.97,Salesforce.com,cloud,USD
+TXN-000168,2025-07-02,Hilton Garden Inn - sales team training week - H1 completion,4237.33,Uber Technologies,travel,USD
+TXN-000169,2025-05-28,Azure Storage Account - blob storage 500GB - [COST-OPTIMIZE],11436.67,AMZN WEB SVCS,cloud,USD
+TXN-000170,2024-12-22,RDS MySQL database - db.r5.xlarge - year-end procurement,1861.63,Oracle Corp,cloud,USD
+TXN-000171,2025-07-13,Digital transformation strategy - Phase 1,162548.11,PwC Advisory,consulting,USD
+TXN-000172,2025-02-01,Ergonomic office chairs - Herman Miller Aeron x12,1456.2,Amazon Business,office,USD
+TXN-000173,2025-01-23,Hilton Garden Inn - sales team training week,3892.37,Delta Air Lines,travel,USD
+TXN-000174,2025-04-08,Standing desks - adjustable height x15,373.59,CDW Corporation,office,USD
+TXN-000175,2025-04-11,Azure Storage Account - blob storage 500GB - INV-87849,1252.32,AMZN WEB SVCS,cloud,USD
+TXN-000176,2025-06-02,Cloud migration strategy and roadmap,5442.37,KPMG Services,consulting,USD
+TXN-000177,2025-03-25,Office 365 E5 licenses - 250 users,220.71,Adobe Inc,software,USD
+TXN-000178,2024-09-17,Agile transformation coaching - 3 teams - [COMPLIANCE-2024],48351.04,KPMG Services,consulting,USD
+TXN-000179,2024-01-26,IntelliJ IDEA Ultimate - developer licenses,173.55,JetBrains s.r.o.,software,USD
+TXN-000180,2025-07-03,Delta business class - executive team offsite,4016.68,Hilton Hotels,travel,USD
+TXN-000181,2025-05-08,Kubernetes cluster - 5 worker nodes,690.32,GOOG CLOUD,cloud,USD
+TXN-000182,2025-04-26,Marriott downtown Seattle - tech conference 3 nights - for Legal dept,487.64,Delta Air Lines,travel,USD
+TXN-000183,2025-01-30,Delta business class - executive team offsite - Q4 budget spend,2813.28,Enterprise Rent-A-Car,travel,USD
+TXN-000184,2025-04-30,HP LaserJet Pro printers - floor 3 & 4,2953.3,Costco Wholesale,office,USD
+TXN-000185,2025-05-26,Azure Storage Account - blob storage 500GB - INVOICE-84683,5296.21,GOOG CLOUD,cloud,USD
+TXN-000186,2025-02-13,Adobe Creative Cloud for Teams - 50 seats,4849.29,DocuSign Inc,software,USD
+TXN-000187,2025-07-19,Kubernetes cluster - 5 worker nodes - mid-year refresh,24068.2,Oracle Corp,cloud,USD
+TXN-000188,2024-10-01,Lambda function executions - 2M invocations - REF:79758,18503.2,MSFT AZURE,cloud,USD
+TXN-000189,2025-06-19,Round-trip flights SFO-NYC - Q4 board meeting - H1 completion,210.29,United Airlines,travel,USD
+TXN-000190,2024-01-10,Zoom Business Pro - 500 participants,13120.55,DocuSign Inc,software,USD
+TXN-000191,2024-08-18,Azure Storage Account - blob storage 500GB,693.04,IBM CLOUD,cloud,USD
+TXN-000192,2024-10-26,Lambda function executions - 2M invocations - [DIGITAL-TRANSFORM],23321.64,Oracle Corp,cloud,USD
+TXN-000193,2025-01-21,Digital transformation strategy - Phase 1 - REF:41519,148379.51,EY Consulting,consulting,USD
+TXN-000194,2024-12-02,Office 365 E5 licenses - 250 users - BILL-19963,24769.56,JetBrains s.r.o.,software,USD
+TXN-000195,2025-04-18,HP LaserJet Pro printers - floor 3 & 4,1183.32,Amazon Business,office,USD
+TXN-000196,2025-04-08,Agile transformation coaching - 3 teams - #30214,37804.36,KPMG Services,consulting,USD
+TXN-000197,2025-06-21,Adobe Creative Cloud for Teams - 50 seats - mid-year refresh,523.38,Atlassian Corp,software,USD
+TXN-000198,2025-01-27,AWS EC2 t3.large instances - us-east-1 - annual renewal,2104.92,AMZN WEB SVCS,cloud,USD
+TXN-000199,2025-03-28,Delta business class - executive team offsite - #31916,1637.61,Hilton Hotels,travel,USD
+TXN-000200,2024-01-05,Atlassian JIRA Software - 100 users - annual renewal,14916.05,Atlassian Corp,software,USD
+TXN-000201,2025-06-04,HP LaserJet Pro printers - floor 3 & 4 - mid-year refresh,10812.44,Amazon Business,office,USD
+TXN-000202,2025-04-10,HP LaserJet Pro printers - floor 3 & 4 - for Operations dept,8892.09,Amazon Business,office,USD
+TXN-000203,2025-04-27,Business process reengineering - finance dept,165901.67,KPMG Services,consulting,USD
+TXN-000204,2025-05-26,Lenovo ThinkPad laptops - new employee setup - for Operations dept,5904.25,CDW Corporation,office,USD
+TXN-000205,2025-02-09,Uber for Business - monthly corporate account,754.1,Hilton Hotels,travel,USD
+TXN-000206,2024-10-03,AWS EC2 t3.large instances - us-east-1,14035.15,AMZN WEB SVCS,cloud,USD
+TXN-000207,2024-10-19,CloudFront CDN bandwidth - 10TB transfer,20696.5,AMZN WEB SVCS,cloud,USD
+TXN-000208,2025-03-14,Delta business class - executive team offsite,500.28,Enterprise Rent-A-Car,travel,USD
+TXN-000209,2025-02-15,Business process reengineering - finance dept - [INITIATIVE-BETA],42319.96,Accenture LLP,consulting,USD
+TXN-000210,2024-08-31,Kubernetes cluster - 5 worker nodes - for HR dept,1124.01,DigitalOcean LLC,cloud,USD
+TXN-000211,2025-01-03,Standing desks - adjustable height x15 - Q4 budget spend,5236.64,Office Depot,office,USD
+TXN-000212,2024-10-21,Ergonomic office chairs - Herman Miller Aeron x12,367.13,Staples Inc,office,USD
+TXN-000213,2024-09-19,Atlassian JIRA Software - 100 users,1012.8,Atlassian Corp,software,USD
+TXN-000214,2024-08-16,United domestic flights - consultant travel - [DIGITAL-TRANSFORM],6086.81,American Airlines,travel,USD
+TXN-000215,2025-01-26,Lambda function executions - 2M invocations - year-end procurement,19788.42,MSFT AZURE,cloud,USD
+TXN-000216,2024-09-29,Round-trip flights SFO-NYC - Q4 board meeting,1108.65,Delta Air Lines,travel,USD
+TXN-000217,2024-12-02,Standing desks - adjustable height x15 - [EXPANSION-EU],9738.98,Office Depot,office,USD
+TXN-000218,2024-11-10,Enterprise car rental - client site visits Chicago,677.53,American Airlines,travel,USD
+TXN-000219,2024-11-08,United domestic flights - consultant travel,1051.25,Hilton Hotels,travel,USD
+TXN-000220,2025-04-08,HP LaserJet Pro printers - floor 3 & 4,11831.86,Best Buy Business,office,USD
+TXN-000221,2024-08-25,HP LaserJet Pro printers - floor 3 & 4,12728.43,Staples Inc,office,USD
+TXN-000222,2025-03-16,Enterprise car rental - client site visits Chicago,3841.89,United Airlines,travel,USD
+TXN-000223,2025-07-13,Enterprise car rental - client site visits Chicago - summer initiative,1098.3,Enterprise Rent-A-Car,travel,USD
+TXN-000224,2025-03-28,Zoom Business Pro - 500 participants,199.02,DocuSign Inc,software,USD
+TXN-000225,2024-12-23,Lambda function executions - 2M invocations - Q4 budget spend,3308.47,IBM CLOUD,cloud,USD
+TXN-000226,2024-12-02,Google Cloud Run - container deployment - BILL-47171,894.75,DigitalOcean LLC,cloud,USD
+TXN-000227,2024-01-15,IntelliJ IDEA Ultimate - developer licenses,706.74,Zoom Video,software,USD
+TXN-000228,2024-12-22,Zoom Business Pro - 500 participants,4444.68,Adobe Inc,software,USD
+TXN-000229,2025-06-06,"Conference room whiteboards - interactive 75"" - mid-year refresh",91.04,CDW Corporation,office,USD
+TXN-000230,2025-06-21,Ergonomic office chairs - Herman Miller Aeron x12,7596.84,CDW Corporation,office,USD
+TXN-000231,2024-10-04,Agile transformation coaching - 3 teams - [WORKSTREAM-GAMMA],14929.4,KPMG Services,consulting,USD
+TXN-000232,2025-06-02,Network switches - Cisco Catalyst 48-port - summer initiative,358.95,Best Buy Business,office,USD
+TXN-000233,2024-10-05,Cybersecurity risk assessment and remediation - [PROJECT-ALPHA],150124.88,Accenture LLP,consulting,USD
+TXN-000234,2024-12-02,Standing desks - adjustable height x15,340.78,Amazon Business,office,USD
+TXN-000235,2024-12-14,DocuSign Business Pro - 1000 envelopes/month,13417.27,Adobe Inc,software,USD
+TXN-000236,2024-08-18,Standing desks - adjustable height x15 - REF:80328,2281.57,Best Buy Business,office,USD
+TXN-000237,2025-01-24,RDS MySQL database - db.r5.xlarge,7833.04,Oracle Corp,cloud,USD
+TXN-000238,2025-05-15,AWS EC2 t3.large instances - us-east-1 - [PROJECT-ALPHA],19323.35,IBM CLOUD,cloud,USD
+TXN-000239,2025-03-28,Uber for Business - monthly corporate account,669.79,Hilton Hotels,travel,USD
+TXN-000240,2024-10-21,CloudFront CDN bandwidth - 10TB transfer - [INITIATIVE-BETA],9085.82,GOOG CLOUD,cloud,USD
+TXN-000241,2024-01-02,DocuSign Business Pro - 1000 envelopes/month - [PROJECT-ALPHA],16478.25,Adobe Inc,software,USD
+TXN-000242,2025-04-07,Delta business class - executive team offsite,2429.46,Uber Technologies,travel,USD
+TXN-000243,2025-04-20,Kubernetes cluster - 5 worker nodes - for Marketing dept,684.65,Oracle Corp,cloud,USD
+TXN-000244,2024-12-19,DocuSign Business Pro - 1000 envelopes/month - INVOICE-91620,437.94,DocuSign Inc,software,USD
+TXN-000245,2025-01-15,Digital transformation strategy - Phase 1 - [Q4-MIGRATION],14004.43,KPMG Services,consulting,USD
+TXN-000246,2024-01-14,IntelliJ IDEA Ultimate - developer licenses - annual renewal,2193.24,Microsoft Corp,software,USD
+TXN-000247,2025-02-03,Lambda function executions - 2M invocations - [INITIATIVE-BETA],16835.91,AMZN WEB SVCS,cloud,USD
+TXN-000248,2025-03-16,Google Cloud Run - container deployment,938.17,Oracle Corp,cloud,USD
+TXN-000249,2025-07-05,Dell OptiPlex 7090 desktops - IT department - H1 completion,424.35,CDW Corporation,office,USD
+TXN-000250,2024-12-18,HP LaserJet Pro printers - floor 3 & 4 - year-end procurement,2911.59,Staples Inc,office,USD
+TXN-000251,2025-01-22,Cloud migration strategy and roadmap - Q4 budget spend,23899.43,EY Consulting,consulting,USD
+TXN-000252,2025-06-11,Ergonomic office chairs - Herman Miller Aeron x12 - mid-year refresh,386.64,Best Buy Business,office,USD
+TXN-000253,2025-05-03,Uber for Business - monthly corporate account,355.29,Hilton Hotels,travel,USD
+TXN-000254,2025-01-22,IntelliJ IDEA Ultimate - developer licenses,8359.78,Microsoft Corp,software,USD
+TXN-000255,2024-12-16,IntelliJ IDEA Ultimate - developer licenses - year-end procurement,17282.13,Atlassian Corp,software,USD
+TXN-000256,2024-08-12,Enterprise car rental - client site visits Chicago,2564.77,Delta Air Lines,travel,USD
+TXN-000257,2025-07-28,DocuSign Business Pro - 1000 envelopes/month - summer initiative,2247.72,Slack Technologies,software,USD
+TXN-000258,2025-07-15,Data governance framework implementation - mid-year refresh,141711.2,Deloitte Consulting,consulting,USD
+TXN-000259,2025-07-29,Agile transformation coaching - 3 teams - mid-year refresh,162203.32,McKinsey & Co,consulting,USD
+TXN-000260,2024-10-08,Dell OptiPlex 7090 desktops - IT department - INV-72650,189.07,Best Buy Business,office,USD
+TXN-000261,2024-01-25,Office 365 E5 licenses - 250 users,170.98,Zoom Video,software,USD
+TXN-000262,2024-01-24,IntelliJ IDEA Ultimate - developer licenses - year-end procurement,2280.18,Zoom Video,software,USD
+TXN-000263,2024-10-15,United domestic flights - consultant travel - for R&D dept,4784.13,Enterprise Rent-A-Car,travel,USD
+TXN-000264,2025-04-21,Uber for Business - monthly corporate account - for R&D dept,7044.03,American Airlines,travel,USD
+TXN-000265,2025-02-22,IntelliJ IDEA Ultimate - developer licenses,21433.24,Adobe Inc,software,USD
+TXN-000266,2024-12-03,Lambda function executions - 2M invocations,6261.8,AMZN WEB SVCS,cloud,USD
+TXN-000267,2025-03-15,Round-trip flights SFO-NYC - Q4 board meeting,654.95,Enterprise Rent-A-Car,travel,USD
+TXN-000268,2024-10-12,Cloud migration strategy and roadmap - [EXPANSION-EU],71510.05,KPMG Services,consulting,USD
+TXN-000269,2024-11-02,Agile transformation coaching - 3 teams - for IT dept,98748.03,Deloitte Consulting,consulting,USD
+TXN-000270,2024-09-26,"Conference room whiteboards - interactive 75"" - for HR dept",4051.54,Office Depot,office,USD
+TXN-000271,2024-09-08,Google Cloud Run - container deployment - for Marketing dept,3504.3,IBM CLOUD,cloud,USD
+TXN-000272,2025-07-12,Azure Storage Account - blob storage 500GB,22230.34,GOOG CLOUD,cloud,USD
+TXN-000273,2024-08-26,Data governance framework implementation - [EXPANSION-EU],140322.78,PwC Advisory,consulting,USD
+TXN-000274,2025-05-29,Round-trip flights SFO-NYC - Q4 board meeting - INVOICE-31910,6387.67,Hilton Hotels,travel,USD
+TXN-000275,2025-04-02,Google Cloud Run - container deployment,18662.85,Salesforce.com,cloud,USD
+TXN-000276,2024-11-18,United domestic flights - consultant travel - [COMPLIANCE-2024],6502.06,Marriott Hotels,travel,USD
+TXN-000277,2025-01-14,Google Cloud Run - container deployment - year-end procurement,6607.35,Oracle Corp,cloud,USD
+TXN-000278,2024-12-23,Adobe Creative Cloud for Teams - 50 seats - Q4 budget spend,157.54,JetBrains s.r.o.,software,USD
+TXN-000279,2024-12-25,DocuSign Business Pro - 1000 envelopes/month - annual renewal,437.14,Atlassian Corp,software,USD
+TXN-000280,2024-11-22,Network switches - Cisco Catalyst 48-port,268.01,CDW Corporation,office,USD
+TXN-000281,2025-04-07,Round-trip flights SFO-NYC - Q4 board meeting,217.37,Hilton Hotels,travel,USD
+TXN-000282,2024-08-29,Digital transformation strategy - Phase 1 - for Legal dept,8683.52,Accenture LLP,consulting,USD
+TXN-000283,2024-01-13,Office 365 E5 licenses - 250 users - year-end procurement,19979.22,Atlassian Corp,software,USD
+TXN-000284,2025-08-08,Business process reengineering - finance dept - [WORKSTREAM-GAMMA],139160.15,KPMG Services,consulting,USD
+TXN-000285,2025-01-08,Delta business class - executive team offsite - annual renewal,2368.03,Uber Technologies,travel,USD
+TXN-000286,2025-02-02,Hilton Garden Inn - sales team training week,3036.74,Uber Technologies,travel,USD
+TXN-000287,2024-12-09,Zoom Business Pro - 500 participants,24767.22,Zoom Video,software,USD
+TXN-000288,2024-12-01,Enterprise car rental - client site visits Chicago,6606.42,Marriott Hotels,travel,USD
+TXN-000289,2025-04-21,Uber for Business - monthly corporate account,4715.84,Enterprise Rent-A-Car,travel,USD
+TXN-000290,2024-01-16,Adobe Creative Cloud for Teams - 50 seats,18152.29,Slack Technologies,software,USD
+TXN-000291,2025-02-24,Atlassian JIRA Software - 100 users - #48541,2098.78,Zoom Video,software,USD
+TXN-000292,2025-01-13,Ergonomic office chairs - Herman Miller Aeron x12 - for HR dept,2668.74,Office Depot,office,USD
+TXN-000293,2024-09-23,SAP implementation consulting - 6 months - [COST-OPTIMIZE],25821.41,Accenture LLP,consulting,USD
+TXN-000294,2024-10-02,Delta business class - executive team offsite,295.06,Uber Technologies,travel,USD
+TXN-000295,2025-03-01,Network switches - Cisco Catalyst 48-port - for R&D dept,52.1,Costco Wholesale,office,USD
+TXN-000296,2024-10-15,Cybersecurity risk assessment and remediation - BILL-15992,87838.53,KPMG Services,consulting,USD
+TXN-000297,2025-05-08,Dell OptiPlex 7090 desktops - IT department,1356.83,CDW Corporation,office,USD
+TXN-000298,2025-08-01,"Conference room whiteboards - interactive 75"" - for R&D dept",4574.47,Staples Inc,office,USD
+TXN-000299,2024-09-08,Ergonomic office chairs - Herman Miller Aeron x12 - for R&D dept,165.11,CDW Corporation,office,USD
+TXN-000300,2024-08-26,Lenovo ThinkPad laptops - new employee setup - INV-65164,4837.53,Staples Inc,office,USD
+TXN-000301,2024-12-01,Dell OptiPlex 7090 desktops - IT department,280.21,Staples Inc,office,USD
+TXN-000302,2025-04-28,Agile transformation coaching - 3 teams,32721.07,Accenture LLP,consulting,USD
+TXN-000303,2025-06-22,Enterprise car rental - client site visits Chicago,496.46,Enterprise Rent-A-Car,travel,USD
+TXN-000304,2024-12-14,Zoom Business Pro - 500 participants - annual renewal,4159.3,JetBrains s.r.o.,software,USD
+TXN-000305,2024-12-06,Office 365 E5 licenses - 250 users,10366.19,Atlassian Corp,software,USD
+TXN-000306,2025-07-13,Network switches - Cisco Catalyst 48-port - REF:64529,4356.68,Costco Wholesale,office,USD
+TXN-000307,2025-06-07,Business process reengineering - finance dept - [EXPANSION-EU],78602.03,PwC Advisory,consulting,USD
+TXN-000308,2025-02-20,Hilton Garden Inn - sales team training week,4119.92,Uber Technologies,travel,USD
+TXN-000309,2024-09-18,Lambda function executions - 2M invocations,13877.74,IBM CLOUD,cloud,USD
+TXN-000310,2025-05-20,AWS EC2 t3.large instances - us-east-1,2520.03,AMZN WEB SVCS,cloud,USD
+TXN-000311,2025-07-03,IntelliJ IDEA Ultimate - developer licenses - summer initiative,1502.18,Atlassian Corp,software,USD
+TXN-000312,2025-01-18,Standing desks - adjustable height x15,103.42,Amazon Business,office,USD
+TXN-000313,2024-12-22,Enterprise car rental - client site visits Chicago - INVOICE-17113,4034.26,Enterprise Rent-A-Car,travel,USD
+TXN-000314,2024-12-18,Slack Pro workspace - unlimited history - INV-23935,281.01,Zoom Video,software,USD
+TXN-000315,2025-04-24,Lambda function executions - 2M invocations - for Finance dept,2719.03,GOOG CLOUD,cloud,USD
+TXN-000316,2024-12-21,CloudFront CDN bandwidth - 10TB transfer - Q4 budget spend,5327.27,Salesforce.com,cloud,USD
+TXN-000317,2024-10-20,Marriott downtown Seattle - tech conference 3 nights - REF:96182,7550.91,Marriott Hotels,travel,USD
+TXN-000318,2025-03-15,Standing desks - adjustable height x15,2405.94,Best Buy Business,office,USD
+TXN-000319,2024-11-02,Uber for Business - monthly corporate account - REF:37487,4569.55,United Airlines,travel,USD
+TXN-000320,2024-10-29,Business process reengineering - finance dept - [COMPLIANCE-2024],53212.65,PwC Advisory,consulting,USD
+TXN-000321,2025-05-02,Google Cloud Run - container deployment - for Finance dept,338.41,Oracle Corp,cloud,USD
+TXN-000322,2024-12-24,AWS EC2 t3.large instances - us-east-1 - year-end procurement,2826.01,Salesforce.com,cloud,USD
+TXN-000323,2024-08-23,Uber for Business - monthly corporate account,2525.48,Marriott Hotels,travel,USD
+TXN-000324,2024-09-22,Zoom Business Pro - 500 participants,3846.51,Slack Technologies,software,USD
+TXN-000325,2025-03-15,Delta business class - executive team offsite,643.07,Hilton Hotels,travel,USD
+TXN-000326,2024-10-17,Kubernetes cluster - 5 worker nodes - #53327,252.82,IBM CLOUD,cloud,USD
+TXN-000327,2024-12-03,DocuSign Business Pro - 1000 envelopes/month - year-end procurement,17312.17,Slack Technologies,software,USD
+TXN-000328,2024-09-07,HP LaserJet Pro printers - floor 3 & 4 - INVOICE-48479,291.67,Best Buy Business,office,USD
+TXN-000329,2024-12-27,Marriott downtown Seattle - tech conference 3 nights - year-end procurement,2228.46,Uber Technologies,travel,USD
+TXN-000330,2025-07-31,Slack Pro workspace - unlimited history - summer initiative,12717.52,JetBrains s.r.o.,software,USD
+TXN-000331,2024-11-12,Digital transformation strategy - Phase 1 - [INITIATIVE-BETA],95924.35,Accenture LLP,consulting,USD
+TXN-000332,2024-09-15,Data governance framework implementation,67718.23,PwC Advisory,consulting,USD
+TXN-000333,2024-10-22,Kubernetes cluster - 5 worker nodes - #43901,295.22,AMZN WEB SVCS,cloud,USD
+TXN-000334,2024-10-17,Office 365 E5 licenses - 250 users - [INITIATIVE-BETA],5117.98,Microsoft Corp,software,USD
+TXN-000335,2024-11-12,Adobe Creative Cloud for Teams - 50 seats - for R&D dept,470.68,DocuSign Inc,software,USD
+TXN-000336,2024-10-11,Lambda function executions - 2M invocations,8710.14,Oracle Corp,cloud,USD
+TXN-000337,2024-12-07,Office 365 E5 licenses - 250 users,265.06,Adobe Inc,software,USD
+TXN-000338,2025-06-23,Marriott downtown Seattle - tech conference 3 nights - mid-year refresh,960.92,Marriott Hotels,travel,USD
+TXN-000339,2024-12-25,Cybersecurity risk assessment and remediation - annual renewal,19188.53,Deloitte Consulting,consulting,USD
+TXN-000340,2024-09-18,Standing desks - adjustable height x15 - for R&D dept,5658.31,Office Depot,office,USD
+TXN-000341,2024-09-16,"Conference room whiteboards - interactive 75"" - INVOICE-46780",211.43,Costco Wholesale,office,USD
+TXN-000342,2025-01-17,Kubernetes cluster - 5 worker nodes - Q4 budget spend,21814.92,AMZN WEB SVCS,cloud,USD
+TXN-000343,2025-06-05,Business process reengineering - finance dept - mid-year refresh,68486.25,Accenture LLP,consulting,USD
+TXN-000344,2024-10-27,Hilton Garden Inn - sales team training week,299.51,Enterprise Rent-A-Car,travel,USD
+TXN-000345,2025-02-04,Dell OptiPlex 7090 desktops - IT department - REF:37102,2403.68,Amazon Business,office,USD
+TXN-000346,2024-09-22,Network switches - Cisco Catalyst 48-port - REF:44513,4238.7,Staples Inc,office,USD
+TXN-000347,2025-04-20,Slack Pro workspace - unlimited history,4259.61,Slack Technologies,software,USD
+TXN-000348,2025-04-17,Office 365 E5 licenses - 250 users - for HR dept,417.06,JetBrains s.r.o.,software,USD
+TXN-000349,2025-06-15,Delta business class - executive team offsite - H1 completion,2254.44,Enterprise Rent-A-Car,travel,USD
+TXN-000350,2024-09-24,"Conference room whiteboards - interactive 75""",159.65,Staples Inc,office,USD
+TXN-000351,2024-09-08,United domestic flights - consultant travel,3093.1,Marriott Hotels,travel,USD
+TXN-000352,2025-05-11,"Conference room whiteboards - interactive 75"" - for R&D dept",4712.55,Office Depot,office,USD
+TXN-000353,2025-05-01,Hilton Garden Inn - sales team training week,241.31,Hilton Hotels,travel,USD
+TXN-000354,2025-07-24,Network switches - Cisco Catalyst 48-port - for Marketing dept,13819.3,Office Depot,office,USD
+TXN-000355,2024-11-18,Delta business class - executive team offsite,2863.02,Uber Technologies,travel,USD
+TXN-000356,2024-10-22,Ergonomic office chairs - Herman Miller Aeron x12 - INVOICE-72539,13894.31,Costco Wholesale,office,USD
+TXN-000357,2024-01-13,Zoom Business Pro - 500 participants - year-end procurement,5142.28,Adobe Inc,software,USD
+TXN-000358,2025-02-06,"Conference room whiteboards - interactive 75"" - [DIGITAL-TRANSFORM]",9433.26,CDW Corporation,office,USD
+TXN-000359,2025-02-17,Data governance framework implementation - [COMPLIANCE-2024],198563.53,Accenture LLP,consulting,USD
+TXN-000360,2024-11-04,"Conference room whiteboards - interactive 75""",750.7,CDW Corporation,office,USD
+TXN-000361,2024-12-14,Cloud migration strategy and roadmap - Q4 budget spend,14645.7,BCG Inc,consulting,USD
+TXN-000362,2025-05-15,Lenovo ThinkPad laptops - new employee setup - for Legal dept,345.28,Best Buy Business,office,USD
+TXN-000363,2025-05-18,Agile transformation coaching - 3 teams - INV-95854,162306.22,Deloitte Consulting,consulting,USD
+TXN-000364,2024-08-17,Ergonomic office chairs - Herman Miller Aeron x12,351.35,Amazon Business,office,USD
+TXN-000365,2025-05-05,Delta business class - executive team offsite,4382.54,Hilton Hotels,travel,USD
+TXN-000366,2024-01-26,Slack Pro workspace - unlimited history,979.09,Adobe Inc,software,USD
+TXN-000367,2025-02-20,United domestic flights - consultant travel,616.52,United Airlines,travel,USD
+TXN-000368,2025-04-22,Uber for Business - monthly corporate account,3337.77,Uber Technologies,travel,USD
+TXN-000369,2025-03-18,Ergonomic office chairs - Herman Miller Aeron x12 - INV-54825,282.43,Amazon Business,office,USD
+TXN-000370,2025-05-07,IntelliJ IDEA Ultimate - developer licenses,23942.36,Adobe Inc,software,USD
+TXN-000371,2024-09-07,Delta business class - executive team offsite - [PROJECT-ALPHA],7600.94,United Airlines,travel,USD
+TXN-000372,2024-12-04,Adobe Creative Cloud for Teams - 50 seats,22619.74,Slack Technologies,software,USD
+TXN-000373,2024-12-21,Ergonomic office chairs - Herman Miller Aeron x12 - year-end procurement,64.65,Best Buy Business,office,USD
+TXN-000374,2025-05-09,Cloud migration strategy and roadmap - REF:71780,34526.17,BCG Inc,consulting,USD
+TXN-000375,2024-12-25,SAP implementation consulting - 6 months,37338.58,BCG Inc,consulting,USD
+TXN-000376,2025-05-28,IntelliJ IDEA Ultimate - developer licenses - for Marketing dept,194.32,DocuSign Inc,software,USD
+TXN-000377,2024-08-24,Dell OptiPlex 7090 desktops - IT department - #43330,162.94,Amazon Business,office,USD
+TXN-000378,2024-01-12,DocuSign Business Pro - 1000 envelopes/month - Q4 budget spend,3008.71,Atlassian Corp,software,USD
+TXN-000379,2024-12-06,United domestic flights - consultant travel - annual renewal,4625.45,Delta Air Lines,travel,USD
+TXN-000380,2025-01-09,Lenovo ThinkPad laptops - new employee setup,2670.64,CDW Corporation,office,USD
+TXN-000381,2025-03-29,RDS MySQL database - db.r5.xlarge - BILL-68313,19101.22,MSFT AZURE,cloud,USD
+TXN-000382,2025-04-06,Lenovo ThinkPad laptops - new employee setup - [INITIATIVE-BETA],11733.27,Office Depot,office,USD
+TXN-000383,2025-06-30,Lenovo ThinkPad laptops - new employee setup - H1 completion,394.25,Best Buy Business,office,USD
+TXN-000384,2024-12-28,Atlassian JIRA Software - 100 users,350.59,JetBrains s.r.o.,software,USD
+TXN-000385,2024-12-22,Zoom Business Pro - 500 participants - Q4 budget spend,277.94,Slack Technologies,software,USD
+TXN-000386,2024-12-29,Enterprise car rental - client site visits Chicago - annual renewal,745.35,United Airlines,travel,USD
+TXN-000387,2024-12-26,Atlassian JIRA Software - 100 users - year-end procurement,537.43,Atlassian Corp,software,USD
+TXN-000388,2025-01-25,Network switches - Cisco Catalyst 48-port - #20382,11579.26,Best Buy Business,office,USD
+TXN-000389,2025-05-11,Adobe Creative Cloud for Teams - 50 seats - #93478,359.38,Atlassian Corp,software,USD
+TXN-000390,2025-06-21,Cybersecurity risk assessment and remediation - mid-year refresh,5193.95,Accenture LLP,consulting,USD
+TXN-000391,2025-07-27,Atlassian JIRA Software - 100 users - INV-29148,4097.58,JetBrains s.r.o.,software,USD
+TXN-000392,2025-06-11,Data governance framework implementation - H1 completion,13956.99,McKinsey & Co,consulting,USD
+TXN-000393,2025-02-28,Azure Storage Account - blob storage 500GB - for Operations dept,2854.91,Oracle Corp,cloud,USD
+TXN-000394,2025-04-23,Ergonomic office chairs - Herman Miller Aeron x12 - BILL-66906,3625.05,CDW Corporation,office,USD
+TXN-000395,2024-08-25,"Conference room whiteboards - interactive 75"" - for IT dept",604.98,Office Depot,office,USD
+TXN-000396,2025-06-09,Lambda function executions - 2M invocations - summer initiative,662.17,AMZN WEB SVCS,cloud,USD
+TXN-000397,2024-12-07,CloudFront CDN bandwidth - 10TB transfer - annual renewal,691.1,Salesforce.com,cloud,USD
+TXN-000398,2024-11-02,Marriott downtown Seattle - tech conference 3 nights,7338.31,United Airlines,travel,USD
+TXN-000399,2025-05-10,Round-trip flights SFO-NYC - Q4 board meeting - for R&D dept,5529.79,United Airlines,travel,USD
+TXN-000400,2025-02-28,Business process reengineering - finance dept - [COST-OPTIMIZE],60944.05,PwC Advisory,consulting,USD
+TXN-000401,2024-09-10,Business process reengineering - finance dept - [AI-PILOT],20925.22,Deloitte Consulting,consulting,USD
+TXN-000402,2025-07-03,Delta business class - executive team offsite,2846.46,Enterprise Rent-A-Car,travel,USD
+TXN-000403,2025-07-23,Lenovo ThinkPad laptops - new employee setup,10403.2,Amazon Business,office,USD
+TXN-000404,2024-09-10,Azure Storage Account - blob storage 500GB,11220.83,AMZN WEB SVCS,cloud,USD
+TXN-000405,2025-05-19,United domestic flights - consultant travel - REF:62632,604.7,United Airlines,travel,USD
+TXN-000406,2025-01-04,DocuSign Business Pro - 1000 envelopes/month - year-end procurement,4985.83,Atlassian Corp,software,USD
+TXN-000407,2025-01-21,Ergonomic office chairs - Herman Miller Aeron x12 - Q4 budget spend,1135.22,Best Buy Business,office,USD
+TXN-000408,2025-08-01,Data governance framework implementation - [DIGITAL-TRANSFORM],74063.67,Accenture LLP,consulting,USD
+TXN-000409,2025-04-07,Azure Storage Account - blob storage 500GB - [DIGITAL-TRANSFORM],12504.8,AMZN WEB SVCS,cloud,USD
+TXN-000410,2024-08-18,RDS MySQL database - db.r5.xlarge,16300.7,Salesforce.com,cloud,USD
+TXN-000411,2025-01-02,Delta business class - executive team offsite - year-end procurement,923.03,Marriott Hotels,travel,USD
+TXN-000412,2025-02-26,"Conference room whiteboards - interactive 75""",187.15,Staples Inc,office,USD
+TXN-000413,2025-03-17,Network switches - Cisco Catalyst 48-port,1938.14,Costco Wholesale,office,USD
+TXN-000414,2025-06-07,United domestic flights - consultant travel - mid-year refresh,5172.46,Marriott Hotels,travel,USD
+TXN-000415,2025-01-04,Enterprise car rental - client site visits Chicago - annual renewal,1953.35,Hilton Hotels,travel,USD
+TXN-000416,2025-03-09,Dell OptiPlex 7090 desktops - IT department,206.74,Amazon Business,office,USD
+TXN-000417,2024-08-27,HP LaserJet Pro printers - floor 3 & 4 - INV-21247,115.62,Best Buy Business,office,USD
+TXN-000418,2024-01-24,Slack Pro workspace - unlimited history - annual renewal,4119.26,Microsoft Corp,software,USD
+TXN-000419,2025-07-13,Google Cloud Run - container deployment,957.91,IBM CLOUD,cloud,USD
+TXN-000420,2025-06-18,AWS EC2 t3.large instances - us-east-1 - H1 completion,5809.38,IBM CLOUD,cloud,USD
+TXN-000421,2025-06-28,Marriott downtown Seattle - tech conference 3 nights,7333.86,Enterprise Rent-A-Car,travel,USD
+TXN-000422,2025-05-24,AWS EC2 t3.large instances - us-east-1 - BILL-56125,4941.2,AMZN WEB SVCS,cloud,USD
+TXN-000423,2024-11-01,Google Cloud Run - container deployment - #54798,534.98,Salesforce.com,cloud,USD
+TXN-000424,2024-10-23,Marriott downtown Seattle - tech conference 3 nights,567.47,Enterprise Rent-A-Car,travel,USD
+TXN-000425,2024-11-08,Uber for Business - monthly corporate account,6262.36,United Airlines,travel,USD
+TXN-000426,2024-10-27,Marriott downtown Seattle - tech conference 3 nights,6850.25,Delta Air Lines,travel,USD
+TXN-000427,2024-12-29,CloudFront CDN bandwidth - 10TB transfer,7823.82,DigitalOcean LLC,cloud,USD
+TXN-000428,2025-04-16,Uber for Business - monthly corporate account - for Legal dept,360.12,Hilton Hotels,travel,USD
+TXN-000429,2025-07-27,Business process reengineering - finance dept - mid-year refresh,8874.6,EY Consulting,consulting,USD
+TXN-000430,2024-12-05,Agile transformation coaching - 3 teams - [COST-OPTIMIZE],129910.65,Deloitte Consulting,consulting,USD
+TXN-000431,2024-10-24,Hilton Garden Inn - sales team training week,4970.75,Enterprise Rent-A-Car,travel,USD
+TXN-000432,2024-11-20,RDS MySQL database - db.r5.xlarge,342.11,Oracle Corp,cloud,USD
+TXN-000433,2024-12-19,Azure Storage Account - blob storage 500GB - Q4 budget spend,4087.26,MSFT AZURE,cloud,USD
+TXN-000434,2025-05-12,Data governance framework implementation - [AI-PILOT],13298.94,BCG Inc,consulting,USD
+TXN-000435,2025-06-10,Ergonomic office chairs - Herman Miller Aeron x12 - for R&D dept,162.54,Staples Inc,office,USD
+TXN-000436,2024-10-27,United domestic flights - consultant travel - for Legal dept,1637.34,Delta Air Lines,travel,USD
+TXN-000437,2025-05-12,Ergonomic office chairs - Herman Miller Aeron x12 - for Legal dept,8355.1,Amazon Business,office,USD
+TXN-000438,2025-04-23,"Conference room whiteboards - interactive 75""",294.58,Costco Wholesale,office,USD
+TXN-000439,2024-09-29,Lenovo ThinkPad laptops - new employee setup,516.43,Staples Inc,office,USD
+TXN-000440,2024-09-05,RDS MySQL database - db.r5.xlarge - for IT dept,392.73,MSFT AZURE,cloud,USD
+TXN-000441,2024-10-23,Data governance framework implementation - REF:69682,161439.2,McKinsey & Co,consulting,USD
+TXN-000442,2024-12-05,Office 365 E5 licenses - 250 users - [DIGITAL-TRANSFORM],20168.84,Atlassian Corp,software,USD
+TXN-000443,2024-08-25,Hilton Garden Inn - sales team training week,3438.35,Enterprise Rent-A-Car,travel,USD
+TXN-000444,2024-01-20,Slack Pro workspace - unlimited history - year-end procurement,15507.82,JetBrains s.r.o.,software,USD
+TXN-000445,2024-12-17,Uber for Business - monthly corporate account - Q4 budget spend,625.15,Delta Air Lines,travel,USD
+TXN-000446,2025-08-07,Lenovo ThinkPad laptops - new employee setup - BILL-46913,70.47,Costco Wholesale,office,USD
+TXN-000447,2025-07-29,Kubernetes cluster - 5 worker nodes,20314.74,AMZN WEB SVCS,cloud,USD
+TXN-000448,2024-12-19,Data governance framework implementation - annual renewal,42637.08,BCG Inc,consulting,USD
+TXN-000449,2025-07-10,Marriott downtown Seattle - tech conference 3 nights - summer initiative,2070.27,Hilton Hotels,travel,USD
+TXN-000450,2024-08-16,United domestic flights - consultant travel - BILL-14145,2109.42,Hilton Hotels,travel,USD
+TXN-000451,2024-01-25,Adobe Creative Cloud for Teams - 50 seats - annual renewal,431.78,JetBrains s.r.o.,software,USD
+TXN-000452,2025-03-07,United domestic flights - consultant travel - [COST-OPTIMIZE],6662.21,Delta Air Lines,travel,USD
+TXN-000453,2024-08-26,Network switches - Cisco Catalyst 48-port,371.15,Costco Wholesale,office,USD
+TXN-000454,2024-09-19,Azure Storage Account - blob storage 500GB,6346.11,Oracle Corp,cloud,USD
+TXN-000455,2024-10-30,RDS MySQL database - db.r5.xlarge - REF:55916,8259.36,GOOG CLOUD,cloud,USD
+TXN-000456,2024-12-28,Round-trip flights SFO-NYC - Q4 board meeting - Q4 budget spend,7461.22,Delta Air Lines,travel,USD
+TXN-000457,2024-12-27,Cloud migration strategy and roadmap,179521.8,KPMG Services,consulting,USD
+TXN-000458,2024-12-22,Enterprise car rental - client site visits Chicago - year-end procurement,255.75,Delta Air Lines,travel,USD
+TXN-000459,2025-05-11,Agile transformation coaching - 3 teams - [COST-OPTIMIZE],52016.53,McKinsey & Co,consulting,USD
+TXN-000460,2025-02-15,RDS MySQL database - db.r5.xlarge,4611.24,IBM CLOUD,cloud,USD
+TXN-000461,2024-11-13,Standing desks - adjustable height x15,1314.67,CDW Corporation,office,USD
+TXN-000462,2025-04-28,United domestic flights - consultant travel,2942.56,Delta Air Lines,travel,USD
+TXN-000463,2024-09-04,Ergonomic office chairs - Herman Miller Aeron x12 - #88128,5833.85,Best Buy Business,office,USD
+TXN-000464,2025-01-30,Cybersecurity risk assessment and remediation,88593.08,Accenture LLP,consulting,USD
+TXN-000465,2024-12-24,Hilton Garden Inn - sales team training week - Q4 budget spend,581.68,Uber Technologies,travel,USD
+TXN-000466,2025-02-17,Office 365 E5 licenses - 250 users,3558.02,Slack Technologies,software,USD
+TXN-000467,2025-07-16,Round-trip flights SFO-NYC - Q4 board meeting - summer initiative,3312.05,Marriott Hotels,travel,USD
+TXN-000468,2025-01-29,Lambda function executions - 2M invocations - year-end procurement,18628.64,MSFT AZURE,cloud,USD
+TXN-000469,2024-09-03,Marriott downtown Seattle - tech conference 3 nights - INV-19403,1592.63,Marriott Hotels,travel,USD
+TXN-000470,2024-10-07,Lambda function executions - 2M invocations,15752.49,MSFT AZURE,cloud,USD
+TXN-000471,2025-04-13,Lenovo ThinkPad laptops - new employee setup,1561.93,Amazon Business,office,USD
+TXN-000472,2025-02-05,Round-trip flights SFO-NYC - Q4 board meeting,5840.75,Hilton Hotels,travel,USD
+TXN-000473,2024-09-07,Zoom Business Pro - 500 participants - REF:93058,306.78,JetBrains s.r.o.,software,USD
+TXN-000474,2025-02-24,IntelliJ IDEA Ultimate - developer licenses,2609.91,Slack Technologies,software,USD
+TXN-000475,2024-01-22,Atlassian JIRA Software - 100 users,17586.0,Zoom Video,software,USD
+TXN-000476,2024-10-07,Adobe Creative Cloud for Teams - 50 seats,153.02,Atlassian Corp,software,USD
+TXN-000477,2025-05-12,Network switches - Cisco Catalyst 48-port,1153.13,Amazon Business,office,USD
+TXN-000478,2025-04-13,Uber for Business - monthly corporate account,1891.09,Uber Technologies,travel,USD
+TXN-000479,2025-07-17,SAP implementation consulting - 6 months,12343.61,PwC Advisory,consulting,USD
+TXN-000480,2024-11-14,United domestic flights - consultant travel - for Legal dept,427.88,Delta Air Lines,travel,USD
+TXN-000481,2025-01-03,Hilton Garden Inn - sales team training week - annual renewal,1014.2,Enterprise Rent-A-Car,travel,USD
+TXN-000482,2025-04-11,CloudFront CDN bandwidth - 10TB transfer,21143.57,GOOG CLOUD,cloud,USD
+TXN-000483,2024-01-22,IntelliJ IDEA Ultimate - developer licenses - year-end procurement,538.14,Slack Technologies,software,USD
+TXN-000484,2024-08-15,Round-trip flights SFO-NYC - Q4 board meeting,736.38,Enterprise Rent-A-Car,travel,USD
+TXN-000485,2025-03-15,Delta business class - executive team offsite,2771.2,Uber Technologies,travel,USD
+TXN-000486,2024-01-09,DocuSign Business Pro - 1000 envelopes/month - Q4 budget spend,4565.26,DocuSign Inc,software,USD
+TXN-000487,2025-05-13,Agile transformation coaching - 3 teams - #80861,73765.32,BCG Inc,consulting,USD
+TXN-000488,2024-12-05,Zoom Business Pro - 500 participants - annual renewal,816.86,Microsoft Corp,software,USD
+TXN-000489,2024-12-04,Business process reengineering - finance dept,75462.97,KPMG Services,consulting,USD
+TXN-000490,2025-06-11,RDS MySQL database - db.r5.xlarge - summer initiative,3998.76,Oracle Corp,cloud,USD
+TXN-000491,2025-02-19,Ergonomic office chairs - Herman Miller Aeron x12,4088.0,Staples Inc,office,USD
+TXN-000492,2024-12-04,Zoom Business Pro - 500 participants - year-end procurement,24350.26,Zoom Video,software,USD
+TXN-000493,2025-01-25,Digital transformation strategy - Phase 1,58184.34,Deloitte Consulting,consulting,USD
+TXN-000494,2025-01-17,Ergonomic office chairs - Herman Miller Aeron x12 - annual renewal,66.67,Staples Inc,office,USD
+TXN-000495,2025-08-03,Delta business class - executive team offsite,3707.95,Delta Air Lines,travel,USD
+TXN-000496,2025-06-24,Business process reengineering - finance dept - H1 completion,15861.91,KPMG Services,consulting,USD
+TXN-000497,2024-08-30,Delta business class - executive team offsite - REF:99664,938.84,Uber Technologies,travel,USD
+TXN-000498,2025-05-18,CloudFront CDN bandwidth - 10TB transfer - #31627,1910.94,Oracle Corp,cloud,USD
+TXN-000499,2025-08-09,Marriott downtown Seattle - tech conference 3 nights,666.6,Marriott Hotels,travel,USD
