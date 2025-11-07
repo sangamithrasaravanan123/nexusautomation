@@ -221,7 +221,7 @@ const Header = () => {
                 <div className="relative logo-float">
                   <div className="w-12 h-12 bg-white dark:bg-slate-800 rounded-2xl flex items-center justify-center shadow-lg transition-all duration-500 group-hover:shadow-2xl group-hover:scale-110">
                     <img
-                      src="src/components/nexus.jpg"
+                      src="/nexus.jpg"
                       alt="Nexus"
                       className="w-8 h-8 object-contain transition-transform duration-500 group-hover:scale-110"
                     />
