@@ -232,7 +232,6 @@ const Header = () => {
                     NEXUS AUTOMATION
                   </h1>
                 </div>
-              </Link>
 
               {/* Desktop Navigation */}
               <div className="hidden lg:flex items-center space-x-2">

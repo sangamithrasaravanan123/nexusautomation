@@ -17,21 +17,21 @@ const Suppliers = () => {
     {
       name: 'Ingersoll Cutting Tools',
       url: 'https://www.ingersoll-imc.com/',
-      logo: '/src/components/ingersol.jpeg',
+      logo: '/ingersol.jpeg',
       description: 'Premium cutting tools engineered for demanding aerospace and automotive applications',
       specialties: ['High-Performance Tools', 'Aerospace', 'Automotive', 'Medical']
     },
     {
       name: 'Master Fluids',
       url: 'https://www.masterfluids.com/',
-      logo: '/src/components/master.jpeg',
+      logo: '/master.jpeg',
       description: 'Advanced metalworking fluids and chemical solutions for optimal machining performance',
       specialties: ['Metalworking Fluids', 'Coolants', 'Lubricants', 'Chemical Solutions']
     },
     {
   name: 'Spectra Tools',
   url: 'http://spectratools.in/',
-  logo: '/src/components/spectra.jpg',
+  logo: '/spectra.jpg',
   description: 'One of India’s leading cutting tool manufacturers, known for precision-engineered tooling.',
   specialties: [
     'Precision Cutting Tools','Custom Tool Design','Tooling Solutions','High-Performance Reamers']
