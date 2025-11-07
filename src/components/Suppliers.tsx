@@ -1,10 +1,12 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { ExternalLink, ArrowRight } from 'lucide-react';
 
+
 const Suppliers = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(false);
   const sectionRef = useRef(null);
+
 
   const suppliers = [
     {
@@ -29,14 +31,15 @@ const Suppliers = () => {
       specialties: ['Metalworking Fluids', 'Coolants', 'Lubricants', 'Chemical Solutions']
     },
     {
-  name: 'Spectra Tools',
-  url: 'http://spectratools.in/',
-  logo: '/spectra.jpg',
-  description: 'One of India’s leading cutting tool manufacturers, known for precision-engineered tooling.',
-  specialties: [
-    'Precision Cutting Tools','Custom Tool Design','Tooling Solutions','High-Performance Reamers']
-}
+      name: 'Spectra Tools',
+      url: 'http://spectratools.in/',
+      logo: '/spectra.jpg',
+      description: 'One of India's leading cutting tool manufacturers, known for precision-engineered tooling.',
+      specialties: [
+        'Precision Cutting Tools','Custom Tool Design','Tooling Solutions','High-Performance Reamers']
+    }
   ];
+
 
   useEffect(() => {
     const checkDarkMode = () => {
@@ -53,6 +56,7 @@ const Suppliers = () => {
     
     return () => observer.disconnect();
   }, []);
+
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -71,9 +75,11 @@ const Suppliers = () => {
       { threshold: 0.1, rootMargin: '0px' }
     );
 
+
     if (sectionRef.current) {
       observer.observe(sectionRef.current);
     }
+
 
     return () => {
       if (sectionRef.current) {
@@ -81,6 +87,7 @@ const Suppliers = () => {
       }
     };
   }, []);
+
 
   return (
     <section
@@ -94,7 +101,9 @@ const Suppliers = () => {
         <div className="absolute bottom-0 right-0 w-96 h-96 bg-slate-500 dark:bg-slate-400 rounded-full blur-3xl animate-pulse"></div>
       </div>
 
+
       <div className="absolute inset-0 bg-grid-pattern opacity-[0.02] dark:opacity-[0.05]"></div>
+
 
       <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
         {/* Header */}
@@ -111,6 +120,7 @@ const Suppliers = () => {
             We partner with industry-leading manufacturers who share our commitment to quality, innovation, and technical excellence. These trusted brands deliver cutting-edge solutions for precision machining.
           </p>
         </div>
+
 
         {/* Suppliers Grid */}
         <div className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-24 transition-all duration-1000 delay-300 ${
@@ -130,11 +140,9 @@ const Suppliers = () => {
                   src={supplier.logo}
                   alt={`${supplier.name} logo`}
                   className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-500"
-                  onError={(e) => {
-                    e.target.src = 'https://via.placeholder.com/300x150?text=' + encodeURIComponent(supplier.name);
-                  }}
                 />
               </div>
+
 
               {/* Content Section */}
               <div className="p-6 flex flex-col flex-1">
@@ -153,10 +161,12 @@ const Suppliers = () => {
                   )}
                 </div>
 
+
                 {/* Description */}
                 <p className="text-slate-600 dark:text-slate-300 text-sm leading-relaxed mb-5 flex-1">
                   {supplier.description}
                 </p>
+
 
                 {/* Specialties */}
                 <div>
@@ -176,6 +186,7 @@ const Suppliers = () => {
             </div>
           ))}
         </div>
+
 
         {/* Partnership CTA - Simplified */}
         <div className={`glass-card bg-white/80 dark:bg-slate-800/80 backdrop-blur-xl rounded-2xl p-12 shadow-lg dark:shadow-slate-900/50 border border-white/50 dark:border-slate-700/50 text-center transition-all duration-1000 delay-600 ${
@@ -197,6 +208,7 @@ const Suppliers = () => {
           </a>
         </div>
       </div>
+
 
       <style jsx>{`
         .glass-card {
@@ -226,5 +238,6 @@ const Suppliers = () => {
     </section>
   );
 };
+
 
 export default Suppliers;
