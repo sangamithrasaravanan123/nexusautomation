@@ -1,10 +1,12 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Package, Users, TrendingUp, Award, CheckCircle, DollarSign, Target, Zap } from 'lucide-react';
+import { Package, Users, TrendingUp, Award } from 'lucide-react';
+
 
 const Services = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(false);
   const sectionRef = useRef(null);
+
 
   const mainServices = [
     {
@@ -29,18 +31,6 @@ const Services = () => {
     }
   ];
 
-  const consultancyPoints = [
-    { label: 'Cost-per-component optimization', icon: DollarSign },
-    { label: 'Productivity improvement', icon: TrendingUp },
-    { label: 'Tooling strategy selection', icon: Target },
-    { label: 'Cycle time reduction', icon: Zap }
-  ];
-
-  const whyChooseUs = [
-    { label: '20+ Years Serving CNC & manufacturing', icon: Award },
-    { label: 'Strong Partnerships with trusted brands', icon: Users },
-    { label: 'Reliable Delivery with dedicated support', icon: CheckCircle }
-  ];
 
   useEffect(() => {
     const checkDarkMode = () => {
@@ -57,6 +47,7 @@ const Services = () => {
     
     return () => observer.disconnect();
   }, []);
+
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -75,9 +66,11 @@ const Services = () => {
       { threshold: 0.1, rootMargin: '0px' }
     );
 
+
     if (sectionRef.current) {
       observer.observe(sectionRef.current);
     }
+
 
     return () => {
       if (sectionRef.current) {
@@ -85,6 +78,7 @@ const Services = () => {
       }
     };
   }, []);
+
 
   return (
     <section 
@@ -98,7 +92,9 @@ const Services = () => {
         <div className="absolute bottom-0 right-0 w-96 h-96 bg-slate-500 dark:bg-slate-400 rounded-full blur-3xl animate-pulse"></div>
       </div>
 
+
       <div className="absolute inset-0 bg-grid-pattern opacity-[0.02] dark:opacity-[0.05]"></div>
+
 
       <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
         {/* Header */}
@@ -116,8 +112,9 @@ const Services = () => {
           </p>
         </div>
 
-        {/* Services - Simple 2 Column Layout */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-20">
+
+        {/* Services - 2 Column Layout */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {mainServices.map((service, index) => (
             <div
               key={index}
@@ -138,71 +135,8 @@ const Services = () => {
             </div>
           ))}
         </div>
-
-        {/* Consultancy Section */}
-        <div className="mb-20">
-          <h3 className="text-4xl font-bold text-slate-800 dark:text-white mb-12 text-center">
-            Tooling Consultancy
-          </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {consultancyPoints.map((point, index) => (
-              <div
-                key={index}
-                className={`glass-card bg-white/80 dark:bg-slate-800/80 backdrop-blur-xl p-6 rounded-xl shadow-lg dark:shadow-slate-900/50 border border-white/50 dark:border-slate-700/50 text-center hover:shadow-lg hover:-translate-y-1 transition-all duration-500 ${
-                  isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-95'
-                }`}
-                style={{ transitionDelay: isVisible ? `${700 + index * 100}ms` : '0ms' }}
-              >
-                <div className="flex justify-center mb-3">
-                  <div className="w-10 h-10 bg-blue-100 dark:bg-blue-900/30 rounded-lg flex items-center justify-center">
-                    <point.icon className="w-5 h-5 text-blue-600 dark:text-blue-400" />
-                  </div>
-                </div>
-                <p className="font-semibold text-slate-700 dark:text-slate-200 text-sm">{point.label}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* Support Section */}
-        <div className={`glass-card bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-700 dark:to-purple-700 p-12 rounded-2xl shadow-xl text-white text-center mb-20 transition-all duration-1000 delay-700 ${
-          isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
-        }`}>
-          <h3 className="text-3xl font-bold text-white mb-4">Dedicated Customer Support</h3>
-          <p className="text-lg text-white/95 max-w-2xl mx-auto mb-4">
-            Beyond supply, we stay connected — ensuring smooth operations, quick resolution of issues, and continuous improvement.
-          </p>
-          <p className="text-white/85 italic">Our goal: help you produce more, waste less, and improve profitability.</p>
-        </div>
-
-        {/* Why Choose Us */}
-        <div className={`transition-all duration-1000 delay-900 ${
-          isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
-        }`}>
-          <h3 className="text-4xl font-bold text-slate-800 dark:text-white mb-12 text-center">
-            Why NEXUS AUTOMATION?
-          </h3>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {whyChooseUs.map((item, index) => (
-              <div
-                key={index}
-                className={`glass-card bg-white/80 dark:bg-slate-800/80 backdrop-blur-xl p-8 rounded-2xl shadow-lg dark:shadow-slate-900/50 border border-white/50 dark:border-slate-700/50 hover:shadow-xl hover:-translate-y-1 transition-all duration-500 text-center ${
-                  isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'
-                }`}
-                style={{ transitionDelay: isVisible ? `${1100 + index * 100}ms` : '0ms' }}
-              >
-                <div className="flex justify-center mb-4">
-                  <div className="w-12 h-12 bg-blue-100 dark:bg-blue-900/30 rounded-lg flex items-center justify-center">
-                    <item.icon className="w-6 h-6 text-blue-600 dark:text-blue-400" />
-                  </div>
-                </div>
-                <p className="font-semibold text-slate-700 dark:text-slate-200">{item.label}</p>
-              </div>
-            ))}
-          </div>
-        </div>
       </div>
+
 
       <style jsx>{`
         .glass-card {
@@ -232,5 +166,6 @@ const Services = () => {
     </section>
   );
 };
+
 
 export default Services;

@@ -1,20 +1,26 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Factory, Award, Users, MapPin } from 'lucide-react';
 
+
 const About = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(false);
+  const [displayedNumbers, setDisplayedNumbers] = useState({
+    year: 0,
+    experience: 0,
+    customers: 0,
+    tools: 0
+  });
   const sectionRef = useRef(null);
 
+
   useEffect(() => {
-    // Check if dark mode is enabled
     const checkDarkMode = () => {
       setIsDarkMode(document.documentElement.classList.contains('dark'));
     };
     
     checkDarkMode();
     
-    // Watch for theme changes
     const observer = new MutationObserver(checkDarkMode);
     observer.observe(document.documentElement, {
       attributes: true,
@@ -24,19 +30,48 @@ const About = () => {
     return () => observer.disconnect();
   }, []);
 
+
+  // Number animation effect
+  useEffect(() => {
+    if (!isVisible) return;
+
+    const animationDuration = 2500; // 2.5 seconds
+    const startTime = Date.now();
+
+    const animateNumbers = () => {
+      const elapsed = Date.now() - startTime;
+      const progress = Math.min(elapsed / animationDuration, 1);
+
+      // Easing function for smooth animation
+      const easeOutQuad = (t) => t * (2 - t);
+      const easedProgress = easeOutQuad(progress);
+
+      setDisplayedNumbers({
+        year: Math.floor(easedProgress * 2003),
+        experience: Math.floor(easedProgress * 20),
+        customers: Math.floor(easedProgress * 100),
+        tools: Math.floor(easedProgress * 25000)
+      });
+
+      if (progress < 1) {
+        requestAnimationFrame(animateNumbers);
+      }
+    };
+
+    requestAnimationFrame(animateNumbers);
+  }, [isVisible]);
+
+
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            // Reset animation by setting to false first
             setIsVisible(false);
-            // Then trigger animation
             setTimeout(() => {
               setIsVisible(true);
             }, 50);
           } else {
-            // Reset when leaving viewport
             setIsVisible(false);
           }
         });
@@ -47,9 +82,11 @@ const About = () => {
       }
     );
 
+
     if (sectionRef.current) {
       observer.observe(sectionRef.current);
     }
+
 
     return () => {
       if (sectionRef.current) {
@@ -57,6 +94,35 @@ const About = () => {
       }
     };
   }, []);
+
+
+  const statsCards = [
+    {
+      value: displayedNumbers.year,
+      suffix: '',
+      label: 'Established',
+      gradient: 'from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400'
+    },
+    {
+      value: displayedNumbers.experience,
+      suffix: '+',
+      label: 'Years Experience',
+      gradient: 'from-purple-600 to-pink-600 dark:from-purple-400 dark:to-pink-400'
+    },
+    {
+      value: displayedNumbers.customers,
+      suffix: '+',
+      label: 'Happy Customers',
+      gradient: 'from-green-600 to-emerald-600 dark:from-green-400 dark:to-emerald-400'
+    },
+    {
+      value: displayedNumbers.tools,
+      suffix: '+',
+      label: 'Tools Available',
+      gradient: 'from-orange-600 to-red-600 dark:from-orange-400 dark:to-red-400'
+    }
+  ];
+
 
   return (
     <section
@@ -70,10 +136,12 @@ const About = () => {
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-slate-500 dark:bg-slate-400 rounded-full blur-3xl animate-pulse"></div>
       </div>
 
+
       {/* Animated Grid Pattern */}
       <div className="absolute inset-0 bg-grid-pattern opacity-[0.02] dark:opacity-[0.05]"></div>
 
-      <div className="max-w-5xl mx-auto px-6 lg:px-8 relative z-10">
+
+      <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
         {/* Content Section - Centered */}
         <div className={`space-y-8 transition-all duration-1000 ${
           isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
@@ -95,19 +163,23 @@ const About = () => {
             </h2>
           </div>
           
-          {/* Stats Cards - Centered at Top */}
-          <div className={`grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-md mx-auto transition-all duration-1000 ${
+          {/* Stats Cards Grid - 4 columns */}
+          <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-6xl mx-auto transition-all duration-1000 ${
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'
           }`} style={{ transitionDelay: '400ms' }}>
-            <div className="glass-card bg-white/90 dark:bg-slate-800/90 backdrop-blur-xl p-5 rounded-2xl shadow-xl dark:shadow-slate-900/50 border border-white/50 dark:border-slate-700/50 hover:scale-105 transition-all duration-500 text-center">
-              <div className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-br from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400 mb-1">2003</div>
-              <div className="text-sm text-slate-600 dark:text-slate-400 font-medium">Established</div>
-            </div>
-            <div className="glass-card bg-white/90 dark:bg-slate-800/90 backdrop-blur-xl p-5 rounded-2xl shadow-xl dark:shadow-slate-900/50 border border-white/50 dark:border-slate-700/50 hover:scale-105 transition-all duration-500 text-center">
-              <div className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-br from-purple-600 to-pink-600 dark:from-purple-400 dark:to-pink-400 mb-1">20+</div>
-              <div className="text-sm text-slate-600 dark:text-slate-400 font-medium">Years Experience</div>
-            </div>
+            {statsCards.map((stat, index) => (
+              <div
+                key={index}
+                className="glass-card bg-white/90 dark:bg-slate-800/90 backdrop-blur-xl p-6 rounded-2xl shadow-xl dark:shadow-slate-900/50 border border-white/50 dark:border-slate-700/50 hover:scale-105 transition-all duration-500 text-center"
+              >
+                <div className={`text-4xl font-bold font-mono tracking-tight mb-2 bg-gradient-to-br ${stat.gradient} bg-clip-text text-transparent`}>
+                  {stat.value}{stat.suffix}
+                </div>
+                <div className="text-sm text-slate-600 dark:text-slate-400 font-medium">{stat.label}</div>
+              </div>
+            ))}
           </div>
+
 
           {/* Content Paragraphs - Centered */}
           <div className="space-y-6 max-w-4xl mx-auto">
@@ -116,6 +188,7 @@ const About = () => {
             }`} style={{ transitionDelay: '600ms' }}>
               Established in 2003, NEXUS AUTOMATION has grown into a trusted supplier of world-class cutting tools. We specialize in delivering high-performance tooling solutions including indexable inserts, solid carbide tools, tool holders, and advanced machining accessories which are designed to enhance precision, productivity, and cost-efficiency on the shop floor.
             </p>
+
 
             <p className={`text-lg text-slate-600 dark:text-slate-300 leading-relaxed text-center transition-all duration-1000 ${
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'
@@ -131,6 +204,7 @@ const About = () => {
               </p>
             </div>
           </div>
+
 
           {/* Features Grid - Centered */}
           <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-6 max-w-6xl mx-auto transition-all duration-1000 ${
@@ -164,6 +238,7 @@ const About = () => {
         </div>
       </div>
 
+
       {/* Custom CSS */}
       <style jsx>{`
         .glass-card {
@@ -187,10 +262,12 @@ const About = () => {
           background-image: 
             linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
             linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+          background-size: 50px 50px;
         }
       `}</style>
     </section>
   );
 };
+
 
 export default About;
