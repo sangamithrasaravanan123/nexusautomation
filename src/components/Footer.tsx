@@ -104,7 +104,7 @@ const Footer = () => {
               <p className="text-slate-900 dark:text-white font-bold text-xs uppercase tracking-widest mb-3">Connect With Us</p>
               <div className="flex gap-2">
                 <a 
-                  href="https://linkedin.com/company/nexus-automation"
+                  href="https://www.linkedin.com/company/nexusautomationcbe/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 bg-slate-200 dark:bg-slate-700 hover:bg-blue-600 dark:hover:bg-blue-600 text-slate-700 dark:text-slate-300 hover:text-white rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110 shadow-sm"
@@ -121,15 +121,7 @@ const Footer = () => {
                 >
                   <Facebook className="w-5 h-5" />
                 </a>
-                <a 
-                  href="https://instagram.com/nexusautomation"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-10 h-10 bg-slate-200 dark:bg-slate-700 hover:bg-pink-600 dark:hover:bg-pink-600 text-slate-700 dark:text-slate-300 hover:text-white rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110 shadow-sm"
-                  aria-label="Instagram"
-                >
-                  <Instagram className="w-5 h-5" />
-                </a>
+            
                 <a 
                   href="https://wa.me/919994094443"
                   target="_blank"
@@ -207,7 +199,6 @@ const Footer = () => {
                 <h3 className="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 dark:from-blue-400 dark:via-purple-400 dark:to-indigo-400 mb-2">
                   Sangamithra Saravanan
                 </h3>
-                <p className="text-slate-600 dark:text-slate-300 text-sm">Full Stack Developer</p>
               </div>
 
               <div className="space-y-3">

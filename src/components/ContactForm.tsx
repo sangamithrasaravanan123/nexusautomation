@@ -82,9 +82,9 @@ const ContactForm = () => {
     setIsSubmitting(true);
     
     try {
-      const serviceID = 'service_0sxqfrs';
-      const templateID = 'template_i9o3v8e';
-      const publicKey = '9u6eTpFMpQCVSGOs4';
+      const serviceID = 'service_sljwlde';
+      const templateID = 'template_na2b7uq';
+      const publicKey = 'iWrkEOwLIny8pyEdc';
 
 
       const templateParams = {
